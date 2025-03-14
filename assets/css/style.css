@@ -1,0 +1,36 @@
+/* Общие стили для плагина PMP */
+.pmp-dashboard {
+    padding: 20px;
+}
+
+.pmp-top-panel {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pmp-columns {
+    display: flex;
+    gap: 10px;
+}
+
+.pmp-column {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.pmp-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.pmp-project-page {
+    padding: 20px;
+}
